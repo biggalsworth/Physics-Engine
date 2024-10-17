@@ -1,0 +1,19 @@
+Models:
+Golden idol model - by: JavierGonzalez78 - https://www.thingiverse.com/thing:2197485
+Trees - https://rigmodels.com/index.php?manualsearch=1&searchkeyword=trees
+Temple - https://rigmodels.com/model.php?view=Gate-3d-model__5ec1b845199c4c00b3d5bf4f1dedf90c&searchkeyword=temple&manualsearch=1
+
+
+Texture:
+Dark wood - https://www.polantis.com/textures/tree-trunk-texture-dark
+Normal Wood - https://stock.adobe.com/search?k=tree+bark+texture
+Leaves - https://in.pinterest.com/pin/30-free-high-quality-leaf-textures-for-your-designs--112027109451174935/
+Floor - https://stock.adobe.com/search?k=jungle+ground
+Water - https://pixabay.com/photos/water-texture-sea-nature-3584391/
+CubeMap - http://www.humus.name/index.php?page=Textures
+
+
+
+In the shader for multiple light sources my structs and functions are based off the theory in LearnOpenGl, I liked their layouts of functions and how they handled data, but most of my formulas are
+based off the lab material. Defining the light sources are the same as LearnOpenGl.
+https://learnopengl.com/Lighting/Multiple-lights

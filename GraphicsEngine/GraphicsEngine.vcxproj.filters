@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{33cd4190-57e4-4eaa-98f4-d69c95ef0033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Essential Objects">
+      <UniqueIdentifier>{1cb4bba0-4969-46a7-91a8-80e3193eacf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Asset Creation">
+      <UniqueIdentifier>{eef70f66-6e23-4a0f-9af6-3d86e95e879c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Asset Creation">
+      <UniqueIdentifier>{9ea1d743-1f39-4979-ac1c-401b9129edcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{87d80690-13dd-4021-b869-19fbf6dd7c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Essential Objects">
+      <UniqueIdentifier>{99f8630e-a4dd-42ca-806b-bf65d43cc754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Graphical">
+      <UniqueIdentifier>{95c4884f-73e6-47d2-9528-3e33e2adc19c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Models">
+      <UniqueIdentifier>{61a04584-475c-4c0f-b736-a4e66e2d4977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scripts">
+      <UniqueIdentifier>{f9bf94c6-67f7-440e-94e2-b223c8615828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scripts">
+      <UniqueIdentifier>{54b9e0fa-f0dc-453f-9cd4-0e718afa0383}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\GL\gl3w.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Camera.cpp">
+      <Filter>Source Files\Game Essential Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Collider.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Component.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Mesh.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Particle.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\ParticleSystem.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\PlaneCollider.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Rigidbody.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\SphereCollider.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\ObjShape.cpp">
+      <Filter>Source Files\Asset Creation</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\CubemapTexture.cpp">
+      <Filter>Source Files\Asset Creation</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\LightObj.h">
+      <Filter>Source Files\Asset Creation</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Shader.cpp">
+      <Filter>Source Files\Asset Creation</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Texture.cpp">
+      <Filter>Source Files\Asset Creation</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Object.cpp">
+      <Filter>Source Files\Game Essential Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\PlayerScript.cpp">
+      <Filter>Source Files\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\SpeedPad.cpp">
+      <Filter>Source Files\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeCollider.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\CollGrid.cpp">
+      <Filter>Source Files\Game Essential Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="OBBCollider.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSystem.cpp">
+      <Filter>Source Files\Asset Creation</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\GL\gl3w.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\glcorearb.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Mesh.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Particle.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\ParticleSystem.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\PlaneCollider.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Rigidbody.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\SphereCollider.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Collider.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Component.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Object.h">
+      <Filter>Header Files\Game Essential Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Camera.h">
+      <Filter>Header Files\Game Essential Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Textures\CubemapTexture.h">
+      <Filter>Header Files\Asset Creation</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\ObjShape.h">
+      <Filter>Header Files\Asset Creation</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Shader.h">
+      <Filter>Header Files\Asset Creation</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Textures\Texture.h">
+      <Filter>Header Files\Asset Creation</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\SpeedPad.h">
+      <Filter>Header Files\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\PlayerScript.h">
+      <Filter>Header Files\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\CollGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeCollider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OBBCollider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Shaders\VertexShader.glsl">
+      <Filter>Resource Files\Graphical</Filter>
+    </None>
+    <None Include="Assets\Shaders\FragShader.glsl">
+      <Filter>Resource Files\Graphical</Filter>
+    </None>
+    <None Include="Assets\Shaders\MultiLightFrag.glsl" />
+    <None Include="Assets\Shaders\CubeMapVShader.glsl" />
+    <None Include="Assets\Shaders\CubeMapFShader.glsl" />
+    <None Include="Assets\Shaders\Skybox\VertexShader.glsl" />
+    <None Include="Assets\Shaders\Skybox\FragShader.glsl" />
+    <None Include="Assets\Shaders\Skybox\MultiLightFrag.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="References\Sources.txt" />
+  </ItemGroup>
+</Project>
